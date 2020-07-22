@@ -3,7 +3,7 @@ def square_array(array)
   new_arr = []
   index=0
   while array[index] do
-    new_arr.push(Math.pow(array[index],2))
+    new_arr.push(array[index]**2)
   end
   new_arr
 end
